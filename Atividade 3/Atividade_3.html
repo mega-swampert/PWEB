@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caroline Simão">
+    <meta name="description" content="Pesquisa sobre Cibersegurança de Caroline Simão">
+    <meta name="keywords" content="Cibersegurança, Pesquisa, Caroline Simão">
+
+    <link rel="stylesheet" href="Ativ3.css">
+    
+    <title>Privacidade e Segurança nas Páginas da Web</title>
+</head>
+<body>
+    <header class="header-1">
+        <nav class="nav bd-grid">
+            <div>
+                <h1>Privacidade e Segurança nas Páginas da Web</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#introducao" class="nav-link active">Introdução</a></li>
+                    <li class="nav-item"><a href="#beneficios" class="nav-link">Benefícios</a></li>
+                    <li class="nav-item"><a href="#principais-fatores" class="nav-link">Principais Fatores da Segurança Digital</a></li>
+                    <li class="nav-item"><a href="#oauth" class="nav-link">Autenticação OAuth</a></li>
+                    <li class="nav-item"><a href="#xss" class="nav-link">Segurança contra XSS (Cross-Site Scripting)</a></li>
+                    <li class="nav-item"><a href="#conclusao" class="nav-link">Conclusão</a></li>
+                    <li class="nav-item"><a href="#referencias" class="nav-link">Referências</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+        <section class="intro section" id="intro"> 
+            <h2 class="section-title">Introdução</h2>
+            <div class="intro-container bd-grid">
+                <img src="./Imagens/segurança.png" alt="Imagem de segurança na web" width="500" height="300">
+                <p class="intro-text">
+                    Navegar a internet com segurança é extremamente importante, já que novos métodos de invasão de sistemas por arquivos acidentalmente baixados e dados coletados sem o consentimento do usuário para fins maliciosos podem aparecer em qualquer site. Por isso, vários programadores criaram programas e protocolos que ajudam a manter a privacidade do usuário comum, assim evitando que seus dados pessoais e financeiros sejam coletados por alguém que não deveria ter acesso a eles.
+                    <br>
+                    <br>
+                    Nos tempos atuais, muitas pessoas não sabem como se prevenir e desconhecem os protocolos que devem seguir, assim fazendo com que golpes e ameaças sejam muito comuns, especialmente com jovens ou idosos. A segurança na web deveria ser algo mais reconhecido na área de tecnologia, já que é uma das coisas mais importantes que todo usuário da internet deve seguir.
+                </p>
+                <br>
+                <br>
+            </div>
+    </section>
+    <section>
+        <section class="beneficios section" id="beneficios">
+            <h2 class="section-tile">Benefícios</h2>
+            <div class="beneficios-container bd-grid">
+                <ul>
+                <li><h3><strong>Proteção de dados sensíveis do usuário</strong></h3>
+                <p>Bloqueia o roubo de informações pessoais, credenciais bancárias e dados corporativos, evitando fraudes e roubos de identidade.</p>
+                <br>
+                <li><h3><strong>Continuidade nos negócios</strong></h3>
+                <p>Previne que seus sites e aplicativos parem por ataques de DDoS ou ransomware, assim mantendo seus serviços online e estáveis.</p>
+                <br>
+                <li><h3><strong>Prevenção de prejuízos financeiros</strong></h3>
+                <p>Reduz os custos associados a paralisações, recuperação de dados, resgates de ataques e possíveis multas da LGPD.</p>
+                <br>
+                <li><h3><strong>Detecção Proativa de Ameaças</strong></h3>
+                <p>Monitora atividades suspeitas, permitindo identificar e corrigir vulnerabilidades antes que sejam exploradas.</p>
+                </ul>
+            </div>
+            <br>
+            <br>
+    </section>
+    <section>         
+        <section class="principais-fatores section" id="principais-fatores">
+            <h2 class="section-title">Principais Fatores da Segurança Digital</h2>
+            <div class="principais-fatores-container bd-grid">
+                <ul>
+                <li><h3><strong>Proteção de dados sensíveis do usuário</strong></h3>
+                <p>Bloqueia o roubo de informações pessoais, credenciais bancárias e dados corporativos, evitando fraudes e roubos de identidade.</p>
+                <br>
+                <li><h3><strong>Continuidade nos negócios</strong></h3>
+                <p>Previne que seus sites e aplicativos parem por ataques de DDoS ou ransomware, assim mantendo seus serviços online e estáveis.</p>
+                <br>
+                <li><h3><strong>Prevenção de prejuízos financeiros</strong></h3>
+                <p>Reduz os custos associados a paralisações, recuperação de dados, resgates de ataques e possíveis multas da LGPD.</p>
+                <br>
+                <li><h3><strong>Detecção Proativa de Ameaças</strong></h3>
+                <p>Monitora atividades suspeitas, permitindo identificar e corrigir vulnerabilidades antes que sejam exploradas.</p>
+                </ul>
+            </div>
+            <br>
+            <br>
+    </section>
+        <section class="oauth section" id="oauth">
+            <h2 class="section-title">Autenticação OAuth</h2>
+            <div class="oauth-container bd-grid">
+                <div class="oauth-img">
+                    <img src="./Imagens/oauth.webp" alt="Figura demonstrando como a OAuth funciona" width="500" height="300">
+                </div>
+                <p class="oauth-text">
+                    O OAuth é outro nome para “Autorização Aberta”, que é um padrão comumente usado para permitir que um site ou aplicativo utilize os recursos de outro site ou aplicativo em nome do usuário, sem nunca compartilhar as credenciais do mesmo. A versão atual é o OAuth 2.0, tendo substituído o OAuth 1.0 em 2012.
+                    <br>
+                    <br>
+                    No entanto, o OAuth é um protocolo de autorização e não de autenticação, portanto ele foi projetado principalmente como um meio de conceder acesso a um conjunto de recursos como APIs remotas ou dados do usuário. Ele utiliza um token de acesso para representar a autorização para acessar os recursos em nome do usuário final, porém, em alguns casos, tokens de JSON Web também podem ser usados.
+                </p>
+            </div>
+            <br>
+            <br>
+        </section>
+
+        <section class="xss section" id="xss">
+            <h2 class="section-title">Segurança contra XSS (Cross-Site Scripting)</h2>
+            <div class="xss-container bd-grid">
+                <div class="xss-img">
+                    <img src="./Imagens/xss.png" alt="Figura demonstrando como um ataque de XSS funciona" width="600" height="300">
+                </div>
+                <p class="xss-text">
+                        XSS é um tipo de vulnerabilidade da web que permite com que alguém modifique as interações que o usuário realiza com o aplicativo. Ele funciona manipulando um site vulnerável, enviando um JavaScript malicioso para os usuários. Assim que o script for executado, o hacker consegue controlar as interações do usuário com o aplicativo. 
+                    <br>
+                    <br>
+                    A segurança contra XSS (Cross-Site Scripting) baseia-se em nunca confiar na entrada do usuário, utilizando sanitização rigorosa e validação de dados. As defesas cruciais incluem o escape de dados na saída, uso de frameworks seguros, implementação de Content Security Policy (CSP) e manutenção de software atualizado.
+                </p>
+            </div>
+            <br>
+            <br>
+        </section>
+        <section class="conclusao section" id="conclusao">
+            <h2 class="section-title">Conclusão</h2>
+            <div class="conclusao-container bd-grid">
+                <p class="conclusao-text">
+                    Portanto, a segurança na web é um assunto muito interessante e abrangente que não ganha muito destaque no dia-a-dia, o que é preocupante considerando a popularidade do uso das IAs nos códigos. Todo desenvolvedor deve se familiarizar com os básicos da segurança digital para evitar que seus aplicativos e sites tenham vulnerabilidades graves no futuro.
+                    <br>
+                    <br>
+                    A segurança contra vulnerabilidades é algo extremamente importante também, visto que hackers maliciosos podem utilizar informações sensíveis dentro de seus servidores para seu próprio benefício.
+                </p>
+            </div>
+            <br>
+            <br>
+        </section>
+        <section class="referencias section" id="referencias">
+            <h2 class="section-title">Referências</h2>
+            <div class="referencias-container bd-grid">
+                <ul>
+                    <li><a href="https://escolakoru.com.br/blog/post/seguranca-digital-conceito-beneficios-e-como-se-proteger-na-internet">Segurança digital: conceito, benefícios e como se proteger na internet.</a></li>
+                    <li><a href="https://www.akamai.com/pt/glossary/what-is-web-security">O que é segurança na web?</a></li>
+                    <li><a href="https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf">Cartilha de Segurança para Internet</a></li>
+                    <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html">Cross Site Scripting Prevention Cheat Sheet</a></li>
+                    <li><a href="https://auth0.com/pt/intro-to-iam/what-is-oauth-2">O que é OAuth 2.0?</a></li>
+                </ul>
+            </div>
+            <br>
+            <br>
+    </main>
+    <footer>
+        <p id="footer-title"> &nbsp; Criado em Casa</p>
+        <p> &ensp; Programação Web</p>
+        <p> &ensp; 03/2026 </p>
+        <p><small>&copy; <sup>2026</sup> <sup>Caroline Simão </sup>Todos os direitos reservados.</small></p>
+    </footer>
+</body>
+
+</html>
