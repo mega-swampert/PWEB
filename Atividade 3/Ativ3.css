@@ -34,9 +34,9 @@ nav ul {
     padding: 0;
 }
 
-p.intro, p.conclusao, p.referencias, p.principais-fatores, p.oauth, p.xss, p.beneficios {
+p {
     color: #010a67;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
     text-align: justify;
     margin: 20px;
@@ -71,4 +71,8 @@ img {
 #intro, #conclusao, #referencias, #principais-fatores, #oauth, #xss, #beneficios {
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
+}
+
+h3 {
+    color: #000a72;
 }
