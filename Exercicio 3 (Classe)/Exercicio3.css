@@ -1,0 +1,42 @@
+body {
+    font-family: "Segoe UI", Tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.card {
+    background-color: rgb(117, 70, 161);
+    padding: 20px;
+    border-radius: 5px;
+    flex-basis: calc(100%/3 + 20px);
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.card h2
+{
+    margin-top: 0;
+}
+
+.card p
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    color: rgb(117, 70, 161);
+    border-radius: 5px;
+    box-shadow: white 0px 1px 2px, white 0px 2px 4px, white 0px 4px 8px, white 0px 8px 16px;
+
+}
