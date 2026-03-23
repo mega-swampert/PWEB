@@ -1,0 +1,83 @@
+body {
+    padding: 10px;
+    background-image: url("https://archives.bulbagarden.net/media/upload/4/4c/Box_Pokemon_Center_BDSP.png");
+    background-size: cover;
+}
+
+.container-box {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    max-width: 500px;
+    max-height: 500px;
+
+    grid-template-areas:
+    'a b c d'
+    'a b c d'
+    'a b c d';
+
+    place-items: center;
+
+}
+
+.box {
+    background-color: rgb(255, 229, 193);
+    border-radius: 5px;
+}
+
+.a {
+    grid-area: a;
+    text-align: center;
+    align-self: center;
+}
+.b {
+    grid-area: b;
+    text-align: center;
+    align-self: center;
+}
+
+.c {
+    grid-area: c;
+    text-align: center; 
+    align-self: center;
+}
+
+.d {
+    grid-area: d;
+    text-align: center;
+    align-self: center;
+}
+
+
+h1 {
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    color: rgb(201, 71, 2);
+    text-align: center;
+    background-color: rgba(255, 220, 163, 0.8);
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+    
+}
+
+.zeraora {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+}
+
+.full-article {
+    color: rgb(201, 71, 2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(255, 220, 163, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    color: rgb(201, 71, 2);
+}
