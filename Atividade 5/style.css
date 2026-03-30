@@ -1,0 +1,64 @@
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+}
+
+h2::before{
+    content:"Verde";
+}
+
+@media(min-width: 0px) and (max-width: 420px) {
+
+    h2::before{
+        content:"Cinza";
+    }
+    #container{
+        background-color: gray;
+    }
+}
+@media(min-width: 420px) and (max-width: 768px) {
+
+    h2::before{
+        content:"Laranja";
+    }
+    #container{
+        background-color: orange;
+    }
+}
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    h2::before{
+        content:"Rosa";
+    }
+    #container{
+        background-color:pink;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1080px) {
+
+    h2::before{
+        content:"Vermelho";
+    }
+    #container{
+        background-color: red;
+    }
+}
+@media(min-width: 1080px) and (max-width: 1366px) {
+
+    h2::before{
+        content:"Roxo";
+    }
+    #container{
+        background-color:purple;
+    }
+}
+@media(min-width: 1366px) and (max-width: 1920px) {
+
+    h2::before{
+        content:"Amarelo";
+    }
+    #container{
+        background-color:yellow;
+    }
+}
