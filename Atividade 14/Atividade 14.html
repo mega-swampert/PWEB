@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="textoInicial" id="textoInicial"/>
+        <p id="textoFinal">Resultado</p>
+        <input type="radio" id="letrasMaiusculas" name="letrasMai" value="letrasMai"/>
+        <label for="letrasMaiusculas">Transformar Texto para Maiúsculo</label><br>
+        <input type="radio" id="letrasMinusculas" name="letrasMin" value="letrasMin"/>
+        <label for="letrasMinusculas">Transformar Texto para Minúsculo</label><br>
+    </form>
+
+    <script>
+        const textoInicial = document.getElementById('textoInicial');
+        const textoFinal = document.getElementById('textoFinal');
+        const radioMaiusculas = document.getElementById('letrasMaiusculas');
+        const radioMinusculas = document.getElementById('letrasMinusculas');
+
+        radioMaiusculas.addEventListener('change', () => {
+            if (radioMaiusculas.checked) {
+                textoFinal.textContent = textoInicial.value.toUpperCase();
+                radioMinusculas.checked = false;
+            }
+        });
+
+        radioMinusculas.addEventListener('change', () => {
+            if (radioMinusculas.checked) {
+                textoFinal.textContent = textoInicial.value.toLowerCase();
+                radioMaiusculas.checked = false;
+            }
+        });
+    </script>
+</body>
